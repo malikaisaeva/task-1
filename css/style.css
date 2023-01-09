@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+header .text {
+   display: flex;
+   gap: 20px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+}
+
+.main {
+    padding-top:15px;
+}
+
+.main .container {
+    max-width: 1160px;
+    height: 504px;
+    left: 0%;
+    right: 0%;
+    color: white;
+    padding-top: 40px;
+    background-image: url(../img/comp-one.png) ;
+}
+
+.first {
+     text-align: center;
+     align-items: center;
+     font-style: normal;
+}
+
+.first h1 {
+    font-weight: 400;
+    font-size: 43px;
+    padding-top: 200px ;
+}
+
+.first h6 {
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 12px;
+}
+
+.first h5 {
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 25px;
+}
+
+.second {
+    padding-top: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+.second h1 {
+    font-weight: 400;
+    font-size: 43px;
+}
+
+.second h6 {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 23px;
+    color: #A0A0A0;
+}
+
+.second h5 {
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 26px;
+}
+
+.picture .container .grid {
+    
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.item h3 {
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center; 
+}
+
+.item h6 {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+}
+
+.gallery .container {
+    max-width: 1160px;
+    padding-top: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.fourth h3 {
+    font-weight: 400;
+    font-size: 33px;
+
+}
+
+.fourth h6 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #A0A0A0;
+}
+
+.gallery-one .container {
+    max-width: 1160px;
+    
+}
+
+.gallery-one .container .fifth {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 15px;
+    padding-top: 60px;
+}
+
+.item_one {
+    font-weight: 400;
+    font-size: 13px;
+    color: #A0A0A0;
+}
+
+
+
